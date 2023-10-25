@@ -1,0 +1,56 @@
+package aprasentacao;
+
+import java.awt.Color;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JPanel;
+
+public class Header extends JPanel implements ActionListener {
+
+	public Botao realizarVenda;
+	private Botao listarVendas;
+	private Botao listarPedidos;
+	private Botao mostrarRelatorio;
+
+	public Header() {
+		this.setLayout(new GridLayout(1, 4));
+		this.setBackground(Color.DARK_GRAY);
+		this.setBounds(0, 0, 800, 50);
+
+		instancias();
+		adicionarBotoes();
+	}
+
+	private void instancias() {
+
+		realizarVenda = new Botao("Realizar Vendas");
+		listarVendas = new Botao("Listar Vendas");
+		listarPedidos = new Botao("Listar Pedidos");
+		mostrarRelatorio = new Botao("Mostrar Relatorio");
+
+		realizarVenda.addActionListener(this);
+		listarPedidos.addActionListener(this);
+		listarVendas.addActionListener(this);
+		mostrarRelatorio.addActionListener(this);
+		
+	}
+
+	private void adicionarBotoes() {
+
+		add(realizarVenda);
+		add(listarPedidos);
+		add(listarVendas);
+		add(mostrarRelatorio);
+
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+
+	
+		
+	}
+
+}

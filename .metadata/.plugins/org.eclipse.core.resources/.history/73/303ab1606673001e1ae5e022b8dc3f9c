@@ -1,0 +1,23 @@
+package aprasentacao;
+
+import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+
+public class Botao extends JButton implements ActionListener {
+
+	public Botao(String nome) {
+		setText(nome);
+		this.setBackground(Color.decode("#cee879"));
+
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

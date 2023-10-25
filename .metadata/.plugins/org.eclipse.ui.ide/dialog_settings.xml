@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+			<item value="C:\Users\fidel\Desktop\FACULDADE\2º SEMESTRE\TÉCNICAS DE PROGRAMAÇÃO\LABORATORIO GUI"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\fidel\Downloads\Jogo_Fornt-end__back-end (1).zip"/>
+			<item value="C:\Users\fidel\Downloads\Laboratorio3.zip"/>
+		</list>
+	</section>
+</section>

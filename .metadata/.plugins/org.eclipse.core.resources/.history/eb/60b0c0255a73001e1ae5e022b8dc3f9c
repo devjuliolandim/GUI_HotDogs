@@ -1,0 +1,35 @@
+package aprasentacao;
+
+import javax.swing.JPanel;
+
+public class Header extends JPanel {
+
+	Botao realizarVenda;
+	Botao listarVendas;
+	Botao listarPedidos;
+	Botao mostrarRelatorio;
+
+	public Header() {
+		instancias();
+		adicionarBotoes();
+	}
+
+	private void instancias() {
+
+		realizarVenda = new Botao("Realizar Vendas");
+		listarVendas = new Botao("Listar Vendas");
+		listarPedidos = new Botao("Listar Pedidos");
+		mostrarRelatorio = new Botao("Mostrar Relatorio");
+
+	}
+
+	private void adicionarBotoes() {
+
+		add(realizarVenda);
+		add(listarPedidos);
+		add(listarVendas);
+		add(mostrarRelatorio);
+
+	}
+
+}

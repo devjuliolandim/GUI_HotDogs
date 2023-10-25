@@ -1,0 +1,19 @@
+package aprasentacao;
+
+import java.awt.Color;
+
+import javax.swing.*;
+
+public class PainelSecundario extends JPanel {
+
+	public PainelSecundario() {
+		
+		this.setBackground(Color.decode("#fcb653"));
+		this.setBounds(400,400,50,50);
+		
+		
+		
+		
+	}	
+	
+}

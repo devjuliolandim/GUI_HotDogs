@@ -1,0 +1,23 @@
+package lab1;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Janela extends JFrame {
+
+	public Janela() {
+		
+		setTitle("Janela Swing");
+		setSize(1080, 1280);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
+		
+		
+		JPanel painel = new JPanel();
+		
+		add(painel);
+	}
+
+	
+	
+}

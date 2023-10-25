@@ -1,0 +1,39 @@
+package aprasentacao;
+
+import javax.swing.*;
+
+//import java.awt.Color;
+//import java.awt.Font;
+
+public class Janela extends JFrame {
+
+	private Header header;
+	private PainelPrincipal painelPrincipal;
+	
+	public Janela() {
+
+		instancias();
+		
+		this.setSize(800, 800);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setResizable(false);
+		this.setLayout(null);
+
+
+		header.setBounds(0, 0, 800, 50);
+		add(header);
+		
+		
+		setVisible(true);
+	}
+	
+	
+	private void instancias() {
+		
+		header = new Header();
+		painelPrincipal = new PainelPrincipal();
+	}
+	
+	
+
+}

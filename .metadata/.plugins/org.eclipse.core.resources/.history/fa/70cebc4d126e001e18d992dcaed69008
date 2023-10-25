@@ -1,0 +1,14 @@
+package lab1;
+
+import aprasentacao.Janela;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		//new Barraquinha();
+		Janela janela = new Janela();
+		
+	}
+
+}
