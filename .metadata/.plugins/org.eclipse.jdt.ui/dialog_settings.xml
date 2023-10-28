@@ -25,6 +25,7 @@
 		<item key="updateTextualMatches" value="false"/>
 		<item key="updateQualifiedNames" value="false"/>
 		<item key="patterns" value="*"/>
+		<item key="renameSubpackages" value="true"/>
 	</section>
 	<section name="OptionalMessageDialog.hide.">
 		<item key="org.eclipse.jdt.ui.typecomment.deprecated" value="true"/>
@@ -40,5 +41,7 @@
 		<item key="ThrowRuntimeExceptions" value="false"/>
 		<item key="GenerateJavadoc" value="false"/>
 		<item key="AccessModifier" value="2"/>
+	</section>
+	<section name="RenameInformationPopup">
 	</section>
 </section>

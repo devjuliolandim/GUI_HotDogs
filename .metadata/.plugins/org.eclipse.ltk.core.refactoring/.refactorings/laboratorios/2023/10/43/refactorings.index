@@ -1,2 +1,10 @@
 1698256526546	Extract method 'adicionarPaineis'
 1698256742302	Extract method 'adicionarPaineis'
+1698447963597	Rename field 'listarPedidos'
+1698452137738	Delete element
+1698452388837	Rename package 'aprasentacao'
+1698456290642	Rename type 'VendasDireito'
+1698456453738	Rename field 'texto1'
+1698498213844	Extract method 'addColumns'
+1698504843441	Rename type 'Textos'
+1698505057647	Delete element

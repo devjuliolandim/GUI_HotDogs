@@ -4,7 +4,7 @@ package lab1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import aprasentacao.Janela;
+import apresentacao.Janela;
 
 public class Barraquinha {
 
