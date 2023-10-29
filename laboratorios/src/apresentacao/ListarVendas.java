@@ -26,8 +26,8 @@ public class ListarVendas extends JPanel {
 			Object[] row = {
 
 					pedidos.getAluno().getNome(), pedidos.getAluno().getMatricula(),
-					pedidos.getCachorroQuente().getQueijo(), pedidos.getCachorroQuente().getProteina(),
-					pedidos.getCachorroQuente().getAdicionais(), pedidos.getCachorroQuente().getBebida()
+					pedidos.getCachorroQuente().getQueijo().getTipoQueijo(), pedidos.getCachorroQuente().getProteina().getTipoProteina(),
+					pedidos.getCachorroQuente().getAdicionais().getAdicionais(), pedidos.getCachorroQuente().getBebida().getTipoBebida()
 
 			};
 
