@@ -8,3 +8,6 @@
 1698498213844	Extract method 'addColumns'
 1698504843441	Rename type 'Textos'
 1698505057647	Delete element
+1698532541805	Rename type 'VendasDireita'
+1698532554265	Rename type 'VendasEsquerda'
+1698533018281	Extract method 'limparDados'

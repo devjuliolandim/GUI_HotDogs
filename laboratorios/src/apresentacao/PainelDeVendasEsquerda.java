@@ -6,7 +6,7 @@ import java.awt.GridLayout;
 import javax.swing.JPanel;
 
 @SuppressWarnings("serial")
-public class VendasEsquerda extends JPanel {
+public class PainelDeVendasEsquerda extends JPanel {
 
 	Label nomeCliente = new Label("Nome do Cliente:");
 	Label matricula = new Label("Matrícula:");
@@ -15,7 +15,7 @@ public class VendasEsquerda extends JPanel {
 	Label adicionais = new Label("Escolha o seu adicional:");
 	Label bebida = new Label("Bebida:");
 
-	public VendasEsquerda() {
+	public PainelDeVendasEsquerda() {
 
 		this.setBackground(Color.decode("#007e80"));
 		this.setLayout(new GridLayout(7, 1));

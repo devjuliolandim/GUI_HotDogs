@@ -10,9 +10,9 @@ import javax.swing.JTextField;
 
 public class Vendas extends JPanel {
 
-	VendasEsquerda vendasEsquerda;
+	PainelDeVendasEsquerda vendasEsquerda;
 
-	VendasDireita vendasDireita;
+	PainelDeVendasDireita vendasDireita;
 
 	public Vendas() {
 
@@ -25,8 +25,8 @@ public class Vendas extends JPanel {
 
 	private void organizador() {
 
-		vendasEsquerda = new VendasEsquerda();
-		vendasDireita = new VendasDireita();
+		vendasEsquerda = new PainelDeVendasEsquerda();
+		vendasDireita = new PainelDeVendasDireita();
 
 		add(vendasEsquerda);
 		add(vendasDireita);

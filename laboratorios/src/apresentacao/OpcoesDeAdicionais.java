@@ -24,6 +24,49 @@ public class OpcoesDeAdicionais extends JPanel{
 		add(ketchup);
 		add(batataPalha);
 	}
+
+
+	public CheckBoxCustomizada getMaionese() {
+		return maionese;
+	}
+
+
+	public void setMaionese(CheckBoxCustomizada maionese) {
+		this.maionese = maionese;
+	}
+
+
+	public CheckBoxCustomizada getOvo() {
+		return ovo;
+	}
+
+
+	public void setOvo(CheckBoxCustomizada ovo) {
+		this.ovo = ovo;
+	}
+
+
+	public CheckBoxCustomizada getKetchup() {
+		return ketchup;
+	}
+
+
+	public void setKetchup(CheckBoxCustomizada ketchup) {
+		this.ketchup = ketchup;
+	}
+
+
+	public CheckBoxCustomizada getBatataPalha() {
+		return batataPalha;
+	}
+
+
+	public void setBatataPalha(CheckBoxCustomizada batataPalha) {
+		this.batataPalha = batataPalha;
+	}
+	
+	
+	
 	
 	
 }
