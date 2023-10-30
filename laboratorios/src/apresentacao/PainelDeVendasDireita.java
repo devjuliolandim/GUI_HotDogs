@@ -40,8 +40,7 @@ public class PainelDeVendasDireita extends JPanel implements ActionListener {
 	private Bebida bebida = new Bebida();
 	private ArrayList<Pedidos> pedidos = new ArrayList<>();
 	private Memoria memoria = new Memoria();
-	
-	
+
 	public PainelDeVendasDireita() {
 
 		this.setBackground(Color.decode("#007e80"));
@@ -58,8 +57,6 @@ public class PainelDeVendasDireita extends JPanel implements ActionListener {
 				Pedidos pedido = new Pedidos(aluno, cachorroQuente);
 				pedidos.add(pedido);
 				memoria.setPedidos(pedidos);
-				
-	        
 
 				limparDados();
 

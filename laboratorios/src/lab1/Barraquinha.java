@@ -1,6 +1,5 @@
 package lab1;
 
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -9,12 +8,10 @@ import apresentacao.Janela;
 public class Barraquinha {
 
 	private Queijo2 data = new Queijo2();
-	
-	
+
 	public Barraquinha() {
-		
-		new Janela();
-		
+
+
 		System.out.println("Bem vindo a barraquinha de tecnicas!\n");
 		data.dados = new Scanner(System.in);
 		data.listaVenda = new ArrayList<Venda>();
@@ -67,22 +64,22 @@ public class Barraquinha {
 		System.out.println("Escolha uma opção para registrar a venda ou digite -1 para sair!");
 		System.out.println("1: informar os dados do aluno comprador");
 		System.out.println("2: Escolher cachorro quente");
-		
+
 		return data.dados.nextInt();
 	}
 
 	private TipoEnumQueijo escolherTipoQueijo() {
 		String queijo = null;
-		
+
 		System.out.println("Escolha a opcao de queijo: [MUSSARELA, PRATO, PARMESSAO , COALHO]");
 		queijo = data.dados.next();
-		TipoEnumQueijo tipoQueijo =TipoEnumQueijo.valueOf(queijo);
+		TipoEnumQueijo tipoQueijo = TipoEnumQueijo.valueOf(queijo);
 		return tipoQueijo;
 	}
 
 	private CachorroQuente escolherCachorroQuente(TipoEnumQueijo tipoQueijo) {
 		System.out.println("\n Escolha a opcaode cachorro quente: [1 - Salsicha, 2 - Linguica, 3 - Frango, 4- Bacon]");
-		String tipo= data.dados.next();
+		String tipo = data.dados.next();
 		CachorroQuente c = null;
 		switch (tipo) {
 		case "1":

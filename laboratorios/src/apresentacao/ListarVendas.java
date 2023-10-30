@@ -18,6 +18,9 @@ public class ListarVendas extends JPanel {
 
 	public ListarVendas() {
 
+		
+		
+		
 		this.setBackground(Color.decode("#004853"));
 
 		addColumns();

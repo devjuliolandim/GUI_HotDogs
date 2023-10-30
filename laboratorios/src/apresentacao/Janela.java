@@ -6,6 +6,8 @@ import java.awt.Color;
 
 import javax.swing.*;
 
+import negocio.Memoria;
+
 public class Janela extends JFrame {
 
 	private Header header;
@@ -16,7 +18,7 @@ public class Janela extends JFrame {
 	private PainelPrincipal mostrarRelatorio;
 	public static JPanel cardPanel;
 	public static CardLayout cardLayout;
-
+	
 	public Janela() {
 
 		instancias();
@@ -46,8 +48,8 @@ public class Janela extends JFrame {
 		cardPanel = new JPanel(cardLayout);
 		mostrarRelatorio = new PainelPrincipal(Color.orange);
 		listarClientes = new PainelPrincipal(Color.pink);
-		listarVendas = new ListarVendas();
 		vendas = new Vendas();
+		listarVendas = new ListarVendas();
 		header = new Header();
 		painelPrincipal = new PainelPrincipal(Color.white);
 
